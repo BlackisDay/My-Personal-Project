@@ -1,0 +1,40 @@
+
+body{
+    background-color:#fffacd;
+}
+
+#headertest {
+    color:red;
+}
+
+.title {
+    text-align:center;
+    color:rgb(0, 0, 0);
+}
+
+.test1 {
+    text-align:center;
+    color:blueviolet;
+}
+
+.headertest {
+    text-align: center;
+    color:black;
+}
+.Image-Text{
+    text-align:center;
+    color:rgb(95, 94, 94);
+
+}
+
+#The-Beginning {
+        font-size:50px;
+        text-align:center;
+        color:red;
+}
+
+div {
+        font-size:50px;
+        text-align:center;
+        color: black;
+}
