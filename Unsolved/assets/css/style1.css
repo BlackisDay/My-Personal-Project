@@ -1,10 +1,6 @@
 
 body{
-    background-color:#fffacd;
-}
-
-#headertest {
-    color:red;
+    background-color:#6b694f;
 }
 
 .title {
@@ -12,29 +8,53 @@ body{
     color:rgb(0, 0, 0);
 }
 
-.test1 {
-    text-align:center;
-    color:blueviolet;
+.Header {
+    z-index: -1;
+    top: 0; 
+    left: 0; 
+    padding: 144px;
+    width:2000px;
+    margin:-1px;
+    position:fixed;
+    background-color:rgb(255, 255, 255);
 }
 
-.headertest {
-    text-align: center;
+img#logo{
+    width: 800px;
+    z-index: 1;
+    position:absolute;
+    float:left;
+}
+
+
+#AbbreviateName {
+    z-index: 2;
+    font-size: 40px;
+    float:left;
+    position:absolute;
+    opacity:1;
+    color:rgb(253, 7, 7);
+}
+
+.Home-Page {
+    list-style-type:none;
+    text-align:right;
+    margin:0;
+    padding:0;
+}
+
+li a{
+    display:block;
+    background-color:black;
+    color:white;
+}
+
+li a:hover{
+    background-color:red;
     color:black;
 }
-.Image-Text{
-    text-align:center;
-    color:rgb(95, 94, 94);
 
-}
-
-#The-Beginning {
-        font-size:50px;
-        text-align:center;
-        color:red;
-}
-
-div {
-        font-size:50px;
-        text-align:center;
-        color: black;
+li {
+    text-align:right;
+    border-bottom:1px solid green;
 }
