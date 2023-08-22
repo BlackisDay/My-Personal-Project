@@ -1,6 +1,7 @@
 
 body{
-    background-color:#6b694f;
+    background-color:white;
+    width:100%
 }
 
 .title {
@@ -19,13 +20,24 @@ body{
     background-color:rgb(255, 255, 255);
 }
 
-img#logo{
+#logo{
     width: 800px;
     z-index: 1;
     position:absolute;
     float:left;
 }
 
+.BigThree {
+    flex-wrap:wrap;
+    width:500px;
+    height:300px;
+    margin-top:250px;
+}
+
+#Ichigo {
+    flex-wrap:wrap;
+    width: 250px;
+}
 
 #AbbreviateName {
     z-index: 2;
@@ -57,4 +69,24 @@ li a:hover{
 li {
     text-align:right;
     border-bottom:1px solid green;
+}
+
+a {
+    text-decoration:none;
+}
+
+@media screen and(max-width: 900px) {
+    .Header{
+        width:500px
+        background-color:red;
+    }
+}
+
+@media screen and(max-width: 400px) {
+    .TheOpening{
+        width:100%
+    }
+    .Header{
+        background-color:black;
+    }
 }
